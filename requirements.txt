@@ -1,3 +1,4 @@
 pytest
 selenium==3.141.0
 page-objects
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
